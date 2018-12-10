@@ -2,9 +2,9 @@
 ```
 HTTP_PROXY=http://xxx.xxx.xxx.xxx:port
 HTTPS_PROXY=http://xxx.xxx.xxx.xxx:port
-REQUESTS_CA_BUNDLE=C:\Users\admin\ca-cert.crt
+REQUESTS_CA_BUNDLE=C:\Users\admin\ca-bundle.crt
 ```
-ca-cert.crt 파일은 적절한 자체 인증서 파일명으로 대체
+ca-bundle.crt 파일은 적절한 자체 인증서 파일명으로 대체
 혹은
 ```
 PYTHONHTTPSVERIFY=0
