@@ -1,6 +1,6 @@
 def func_a(string, length):
     padZero = ""
-    padSize = @@@
+    padSize = length - len(string)
     for i in range(padSize):
         padZero += "0"
     return padZero + string
@@ -12,12 +12,12 @@ def solution(binaryA, binaryB):
     
     hamming_distance = 0
     for i in range(max_length):
-        if @@@:
+        if binaryA[i] != binaryB[i]:
             hamming_distance += 1
     return hamming_distance
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
-binaryA = "10010"
+binaryA = "10000"
 binaryB = "110"
 ret = solution(binaryA, binaryB)
 
