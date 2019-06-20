@@ -3,6 +3,10 @@
 
 def solution(pos):
     # 여기에 코드를 작성해주세요.
+    x = ord(pos[0]) - ord('A')
+    y = int(pos[1])
+    print(x, y)
+    print(type(x), type(y))
     answer = 0
     return answer
 
