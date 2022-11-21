@@ -3,7 +3,7 @@ import csv
 f = open('csv-test.csv', 'rb')
 rdr = csv.reader(f)
 for line in rdr:
-    print line
+    print(line)
 f.close() 
 
 

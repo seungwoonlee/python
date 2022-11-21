@@ -7,4 +7,4 @@ li = []
 f = open('city.txt', 'r')
 li = f.read().split()
 f.close()
-print li
+print(li)
